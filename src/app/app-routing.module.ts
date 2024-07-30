@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'data-list', pathMatch: 'full' },
   { path: 'data-list', component: DataListComponent },
   { path: 'my-favs', component: MyFavsComponent },
+  { path: '**', redirectTo: 'data-list' },
 ];
 
 @NgModule({

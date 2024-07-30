@@ -1,0 +1,18 @@
+@import "../../../styles.scss";
+
+.header {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: $themeColor;
+  border-radius: 0.375rem;
+  text-align: center;
+  .title {
+    color: $textColor;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    i {
+      font-size: xx-large;
+    }
+  }
+}

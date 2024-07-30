@@ -1,0 +1,16 @@
+@import "../../../styles";
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 6px;
+  .side-option {
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 0.5rem 01rem;
+  }
+  a {
+    color: $textColor;
+    text-decoration: none;
+  }
+}

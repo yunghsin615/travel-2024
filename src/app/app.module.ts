@@ -9,6 +9,7 @@ import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { InformationComponent } from './shared/information/information.component';
 import { MyFavsComponent } from './my-favs/my-favs.component';
 import { DataListComponent } from './data-list/data-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,13 +19,10 @@ import { DataListComponent } from './data-list/data-list.component';
     NavBarComponent,
     InformationComponent,
     MyFavsComponent,
-    DataListComponent
+    DataListComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

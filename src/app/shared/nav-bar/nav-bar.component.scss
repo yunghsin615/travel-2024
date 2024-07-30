@@ -1,0 +1,20 @@
+@import "../../../styles";
+
+ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  li {
+    padding-left: 0.5rem;
+    a {
+      color: $textColor;
+      text-decoration: none;
+      padding-bottom: 0.375rem;
+      &.active {
+        color: $themeColor;
+        font-weight: 700;
+        border-bottom: 2px solid $themeColor;
+      }
+    }
+  }
+}
